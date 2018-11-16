@@ -17,6 +17,10 @@ void setup()
 	delay(1000);
 	mouv.stop();
 	delay(3000);
+	mouv.reculer(100);
+	delay(1000);
+	mouv.stop();
+	delay(3000);
 }
 
 // The loop function is called in an endless loop
